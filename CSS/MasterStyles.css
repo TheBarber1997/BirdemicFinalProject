@@ -1,4 +1,5 @@
 ﻿body 
 {
-    background
+    background-image:url('/Images/mockup.JPG');
+    background-repeat:no-repeat;
 }
