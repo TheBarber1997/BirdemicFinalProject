@@ -4,3 +4,10 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
+#buttonrow
+{
+    position:relative;
+    top:1%;
+    left:9%;
+    height: 48px;
+}
