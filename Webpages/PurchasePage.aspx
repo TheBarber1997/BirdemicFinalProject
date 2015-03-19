@@ -2,6 +2,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
+<<<<<<< HEAD
+
+=======
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <p>
         This is our game purchasing page.<br /> Here you can buy our game.
@@ -25,4 +28,5 @@
 
     </p>
 </asp:Content>
+>>>>>>> origin/master
 
