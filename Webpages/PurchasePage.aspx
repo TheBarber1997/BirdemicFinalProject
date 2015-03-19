@@ -29,9 +29,11 @@
         ₤10.17.
         <br />
         <br />
-        <asp:Button ID="PurchasingButton" runat="server" Text="Purchase" style="margin-left: 0px" />
+        <asp:Button ID="PurchasingButton" runat="server" Text="Purchase" OnClick="PurchasingButton_Click" style="margin-left: 0px" />
 
     </p>
+
+
 </asp:Content>
 <<<<<<< HEAD
 =======

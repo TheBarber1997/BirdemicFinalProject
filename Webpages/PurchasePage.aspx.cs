@@ -11,7 +11,7 @@ public partial class Webpages_PurchasePage : System.Web.UI.Page
     {
 
     }
-    protected void Button1_Click(object sender, EventArgs e)
+    protected void PurchasingButton_Click(object sender, EventArgs e)
     {
 
     }
