@@ -2,8 +2,17 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
+<<<<<<< HEAD
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <p>
+=======
+
+
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    
+    <p id="FirstParagraphPurchasingPage">
+>>>>>>> origin/master
         This is our game purchasing page.<br /> Here you can buy our game.
         <br />
         Prices are as follows:<br />It will be $60.00 
@@ -16,13 +25,16 @@
         <br />
         downloadable content will be $15.00,
         <br />
-        €14.25<br />
+        €14.25,<br />
         ₤10.17.
-
-    </p>
-    <p>
-        <asp:Button ID="Button1" runat="server" Text="Purchase" />
+        <br />
+        <br />
+        <asp:Button ID="PurchasingButton" runat="server" Text="Purchase" style="margin-left: 0px" />
 
     </p>
 </asp:Content>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
