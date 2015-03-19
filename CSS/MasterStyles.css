@@ -4,3 +4,10 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
+
+#Concept
+{
+    position: fixed;
+    left: 250px;
+    top: 520px;
+}
