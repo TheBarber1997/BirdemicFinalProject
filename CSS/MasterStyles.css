@@ -1,9 +1,10 @@
 ﻿body 
 {
-    background-image: url('/Images/mini.PNG');
+    background-image: url('/Images/Site Background mini.PNG');
     background-repeat:no-repeat;
     background-size:cover;
 }
+<<<<<<< HEAD
 
 /*CSS for the handdrawn concept art :: Isabel did this*/
 #Concept
@@ -28,3 +29,18 @@
     left:207px;
     top: 410px;
 }
+=======
+#buttonrow
+{
+    position:relative;
+    top:1%;
+    left:1%;
+    height: 506px;
+}
+
+#FirstParagraphPurchasingPage
+{
+    background-color:hotpink
+}
+
+>>>>>>> origin/master
