@@ -23,8 +23,10 @@
                 &nbsp;</p>
             <p>
                 &nbsp;</p>
+    <p><img id="Desktop" src="../Images/DesktopBanner.png" />
+                &nbsp;</p>
             <p>
-                <img id="Concept" src="../Images/Concept%20art%20resize2.png" />&nbsp;</p>
+                <img id="Concept" src="../Images/Concept%20art%20resize2.png" /><img id="BirdConcept" src="../Images/Birdconcepts.png" />&nbsp;</p>
             <p>
                 &nbsp;</p>
             <p>

@@ -5,9 +5,26 @@
     background-size:cover;
 }
 
+/*CSS for the handdrawn concept art :: Isabel did this*/
 #Concept
 {
     position: fixed;
     left: 250px;
     top: 520px;
+}
+
+/*CSS for sketchy looking bird drawing :: Isabel did this*/
+#BirdConcept
+{
+    position:fixed;
+    right: 550px;
+    top: 520px;
+}
+
+/*CSS for desktop banner :: Isabel did this*/
+#Desktop
+{
+    position:fixed;
+    left:207px;
+    top: 410px;
 }
