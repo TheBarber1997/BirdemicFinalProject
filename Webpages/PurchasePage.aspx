@@ -2,17 +2,11 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
-<<<<<<< HEAD
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <p>
-=======
-
-
-
 <asp:Content ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
     <p id="FirstParagraphPurchasingPage">
->>>>>>> origin/master
         This is our game purchasing page.<br /> Here you can buy our game.
         <br />
         Prices are as follows:<br />It will be $60.00 
@@ -35,8 +29,4 @@
 
 
 </asp:Content>
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 
