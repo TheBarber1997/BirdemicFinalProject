@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <p ID="PurchasingParagraph1">
+    <p id="PurchasingParagraph1">
        The game will cost
         <br />
         $60.00 
