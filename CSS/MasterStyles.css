@@ -10,7 +10,11 @@
     position:relative;
     left:275px;
     top:-110px;
-    margin:20px;
+}
+
+.buttonstyle
+{
+        margin:20px;
 }
 
 #PurchasePage 
@@ -19,9 +23,8 @@
 }
 
 #FirstParagraphPurchasingPage
-
 {
-    margin:20px;
+
 }
 
 /*CSS for the handdrawn concept art :: Isabel did this*/
