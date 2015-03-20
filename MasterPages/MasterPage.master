@@ -7,22 +7,31 @@
     <title>MasterPage</title><link rel="stylesheet" type="text/css" href="/CSS/MasterStyles.css" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1 {
+            height: 763px;
+        }
+    </style>
 </head>
-<<<<<<< HEAD
 <body style="height: 761px">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <asp:Image ID="Logo" runat="server" src="/Images/Birdemic logo.png" Height="113px" Width="180px"/>
             <div id="buttonrow">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Image ID="Logo" runat="server" src="/Images/Birdemic logo.png" Height="204px" Width="302px"/>
-            </div>
+            <asp:Button ID="Button1" runat="server" Text="Home" CssClass="buttonstyle" />
+            <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="buttonstyle" />
+            <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="buttonstyle" />
+            <asp:Button ID="Button4" runat="server" Text="About Us" CssClass="buttonstyle" />
+            <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="buttonstyle" />
+            <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="buttonstyle" />
+             </div>
+        
         </asp:ContentPlaceHolder>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>
+            &nbsp;</p>
     </form>
-=======
-<body>
-    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-    </asp:ContentPlaceHolder>
->>>>>>> origin/master
-</body>
+    <body>
+    </body>
 </html>
