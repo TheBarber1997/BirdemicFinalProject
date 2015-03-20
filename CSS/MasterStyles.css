@@ -4,6 +4,10 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a527c80c57d56e5157a098502d4bcca8a153b1ac
 #buttonrow
 {
     position:relative;
@@ -15,7 +19,12 @@
 {
     background-color: Red;
 }
+<<<<<<< HEAD
 .buttonstyle
+=======
+
+#FirstParagraphPurchasingPage
+>>>>>>> a527c80c57d56e5157a098502d4bcca8a153b1ac
 {
 <<<<<<< HEAD
     margin:20px;
@@ -30,18 +39,17 @@
 #BirdConcept
 {
     position:fixed;
-    right: 550px;
+    right: 700px;
     top: 520px;
 }
 
 /*CSS for desktop banner :: Isabel did this*/
-#Desktop
+#Desktop 
 {
-    position:fixed;
-    left:207px;
+    position: fixed;
+    left: 207px;
     top: 410px;
 }
-<<<<<<< HEAD
 
 /*CSS for hyper link to Birdemic official site :: Isabel did this*/
 #HyperLink1
@@ -86,7 +94,11 @@
     font-family:Tunga;
     color:#ffffff;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> origin/master
 >>>>>>> origin/master
 >>>>>>> origin/master
+=======
+
+>>>>>>> a527c80c57d56e5157a098502d4bcca8a153b1ac

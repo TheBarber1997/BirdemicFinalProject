@@ -13,6 +13,10 @@
         }
     </style>
 </head>
+<<<<<<< HEAD
+=======
+
+>>>>>>> a527c80c57d56e5157a098502d4bcca8a153b1ac
 <body style="height: 761px">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
@@ -32,6 +36,10 @@
         <p>
             &nbsp;</p>
     </form>
+<<<<<<< HEAD
     <body>
     </body>
+=======
+</body>
+>>>>>>> a527c80c57d56e5157a098502d4bcca8a153b1ac
 </html>
