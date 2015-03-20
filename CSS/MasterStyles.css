@@ -33,3 +33,47 @@
     left:207px;
     top: 410px;
 }
+
+/*CSS for hyper link to Birdemic official site :: Isabel did this*/
+#HyperLink1
+{
+    text-align:center;
+    position: fixed;
+    left:250px;
+    top:150px;
+    color:#ffffff;
+    font-family:Tunga;
+}
+
+/* CSS for text for indicate art :: Isabel did this*/
+#ConceptText
+{
+    text-align:center;
+    position:fixed;
+    left: 560px;
+    top:380px;
+    color:#ffffff;
+    font-family:Tunga;
+}
+
+/*CSS for text for to indicate links :: Isabel did this*/
+#LinksText
+{
+    text-align:center;
+    position:fixed;
+    left: 540px;
+    top:100px;
+    color:#ffffff;
+    font-family:Tunga;
+}
+
+/*CSS for hyper link to IMDB*/
+#IMDB
+{
+    text-align:center;
+    position: fixed;
+    left:500px;
+    top:150px;
+    font-family:Tunga;
+    color:#ffffff;
+}
