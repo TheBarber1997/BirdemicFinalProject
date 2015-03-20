@@ -4,6 +4,21 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
+<<<<<<< HEAD
+#buttonrow
+{
+    position:relative;
+    background-size:25%;
+    top:2%;
+    left:1%;
+    height: 76px;
+}
+
+#PurchasePage 
+{
+    background-color: Red;
+}
+=======
 
 #FirstParagraphPurchasingPage
 {
@@ -33,6 +48,7 @@
     left:207px;
     top: 410px;
 }
+<<<<<<< HEAD
 
 /*CSS for hyper link to Birdemic official site :: Isabel did this*/
 #HyperLink1
@@ -77,3 +93,6 @@
     font-family:Tunga;
     color:#ffffff;
 }
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
