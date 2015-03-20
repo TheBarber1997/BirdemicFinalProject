@@ -4,43 +4,16 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
-<<<<<<< HEAD
-
-/*CSS for the handdrawn concept art :: Isabel did this*/
-#Concept
-{
-    position: fixed;
-    left: 250px;
-    top: 520px;
-}
-
-/*CSS for sketchy looking bird drawing :: Isabel did this*/
-#BirdConcept
-{
-    position:fixed;
-    right: 550px;
-    top: 520px;
-}
-
-/*CSS for desktop banner :: Isabel did this*/
-#Desktop
-{
-    position:fixed;
-    left:207px;
-    top: 410px;
-}
-=======
 #buttonrow
 {
     position:relative;
-    top:1%;
+    background-size:25%;
+    top:2%;
     left:1%;
-    height: 506px;
+    height: 76px;
 }
 
-#FirstParagraphPurchasingPage
+#PurchasePage 
 {
-    background-color:hotpink
+    background-color: Red;
 }
-
->>>>>>> origin/master
