@@ -4,7 +4,7 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
-<<<<<<< HEAD
+
 #buttonrow
 {
     position:relative;
@@ -18,7 +18,6 @@
 {
     background-color: Red;
 }
-=======
 
 #FirstParagraphPurchasingPage
 {
@@ -37,18 +36,17 @@
 #BirdConcept
 {
     position:fixed;
-    right: 550px;
+    right: 700px;
     top: 520px;
 }
 
 /*CSS for desktop banner :: Isabel did this*/
-#Desktop
+#Desktop 
 {
-    position:fixed;
-    left:207px;
+    position: fixed;
+    left: 207px;
     top: 410px;
 }
-<<<<<<< HEAD
 
 /*CSS for hyper link to Birdemic official site :: Isabel did this*/
 #HyperLink1
@@ -93,6 +91,4 @@
     font-family:Tunga;
     color:#ffffff;
 }
-=======
->>>>>>> origin/master
->>>>>>> origin/master
+
