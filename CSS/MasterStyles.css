@@ -32,7 +32,7 @@
 #BirdConcept
 {
     position:fixed;
-    right: 550px;
+    left:10%;
     top: 520px;
 }
 
@@ -94,7 +94,7 @@
     font-family:Tunga;
     color:#ffffff;
 }
-
+/*CSS for hyper link to the trailer*/
 #HyperLink3
 {
     text-align:center;
@@ -104,6 +104,7 @@
     font-family:Tunga;
     color:#ffffff;
 }
+/*CSS for hyperlink to twitter*/
 #HyperLink4
 {
     text-align:center;
