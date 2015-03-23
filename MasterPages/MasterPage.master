@@ -13,7 +13,7 @@
         }
     </style>
 </head>
-<body style="height: 761px">
+<body style="height: 760px">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         <form id="form1" runat="server">
             <asp:Image ID="Logo" runat="server" src="/Images/Birdemic logo.png" Height="113px" Width="180px"/>
