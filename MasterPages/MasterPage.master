@@ -9,7 +9,7 @@
     </asp:ContentPlaceHolder>
     <style type="text/css">
         #form1 {
-            height: 763px;
+            height: 760px;
         }
     </style>
 </head>
