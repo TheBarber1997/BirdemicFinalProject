@@ -13,39 +13,25 @@
         }
     </style>
 </head>
-<<<<<<< HEAD
-=======
-
->>>>>>> a527c80c57d56e5157a098502d4bcca8a153b1ac
 <body style="height: 761px">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-    <form id="form1" runat="server">
-        
+        <form id="form1" runat="server">
             <asp:Image ID="Logo" runat="server" src="/Images/Birdemic logo.png" Height="113px" Width="180px"/>
             <div id="buttonrow">
-            <asp:Button ID="Button1" runat="server" Text="Home" CssClass="buttonstyle" />
-            <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="buttonstyle" />
-            <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="buttonstyle" />
-            <asp:Button ID="Button4" runat="server" Text="About Us" CssClass="buttonstyle" />
-            <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="buttonstyle" />
-            <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="buttonstyle" />
-             </div>
-        
-        </asp:ContentPlaceHolder>
+                <asp:Button ID="Button1" runat="server" Text="Home" CssClass="buttonstyle" />
+                <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="buttonstyle" />
+                <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="buttonstyle" />
+                <asp:Button ID="Button4" runat="server" Text="About Us" CssClass="buttonstyle" />
+                <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="buttonstyle" />
+                <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="buttonstyle" />
+            </div>
+        </form>
+    </asp:ContentPlaceHolder>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <p>
             &nbsp;</p>
-    </form>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <body>
-    </body>
-=======
-=======
 
-=======
->>>>>>> a527c80c57d56e5157a098502d4bcca8a153b1ac
->>>>>>> 638e26d15a16b4833f132625bd82f2f44bebabf9
+
+
 </body>
->>>>>>> a527c80c57d56e5157a098502d4bcca8a153b1ac
 </html>
