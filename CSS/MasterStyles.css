@@ -4,7 +4,7 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
-<<<<<<< HEAD
+
 #buttonrow
 {
     position:relative;
@@ -18,12 +18,12 @@
 {
     background-color: Red;
 }
-=======
+
 
 /*CSS for the handdrawn concept art :: Isabel did this*/
 #Concept
 {
-    position: fixed;
+    position:fixed;
     left: 250px;
     top: 520px;
 }
@@ -43,15 +43,13 @@
     left:207px;
     top: 410px;
 }
-<<<<<<< HEAD
+
 
 #PurchasingParagraph1
 {
-    Font-color:red;
+    color:red;
     
 }
-=======
-<<<<<<< HEAD
 
 /*CSS for hyper link to Birdemic official site :: Isabel did this*/
 #HyperLink1
@@ -82,12 +80,12 @@
     position:fixed;
     left: 540px;
     top:100px;
-    color:#ffffff;
     font-family:Tunga;
+    color:#ffffff;
 }
 
 /*CSS for hyper link to IMDB*/
-#IMDB
+#HyperLink2
 {
     text-align:center;
     position: fixed;
@@ -96,7 +94,22 @@
     font-family:Tunga;
     color:#ffffff;
 }
-=======
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+
+#HyperLink3
+{
+    text-align:center;
+    position: fixed;
+    left:620px;
+    top:150px;
+    font-family:Tunga;
+    color:#ffffff;
+}
+#HyperLink4
+{
+    text-align:center;
+    position: fixed;
+    left:860px;
+    top:150px;
+    font-family:Tunga;
+    color:#ffffff;
+}
