@@ -15,6 +15,8 @@
         <asp:Button ID="btnTwitter" runat="server" Text="Twitter" />
         <asp:Button ID="btnIMDB" runat="server" Text="IMDB" />
                 
+        <asp:Button ID="btnTrailer" runat="server" Text="Button" />
+                
     </form>
                 
 </asp:Content>
