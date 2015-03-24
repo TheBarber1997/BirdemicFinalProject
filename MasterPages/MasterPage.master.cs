@@ -15,4 +15,8 @@ public partial class MasterPages_MasterPage : System.Web.UI.MasterPage
     {
 
     }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -10,9 +10,9 @@
     position:relative;
     background-size:25%;
     top:-14%;
-    left:2%;
+    left:5%;
     height: 66px;
-    width: 852px;
+    width: 978px;
     margin-left: 156px;
 }
 .ButtonStyle
@@ -20,6 +20,39 @@
     margin:20px;
 }
 
+<<<<<<< HEAD
+=======
+#Homepage
+{
+    Position:relative;
+}
+
+/*CSS for the handdrawn concept art :: Isabel did this*/
+#Concept
+{
+    position:fixed;
+    left: 250px;
+    top: 520px;
+}
+
+/*CSS for sketchy looking bird drawing :: Isabel did this*/
+#BirdConcept
+{
+    position:fixed;
+    left:10%;
+    top: 520px;
+}
+
+/*CSS for desktop banner :: Isabel did this*/
+#Desktop
+{
+    position:fixed;
+    left:207px;
+    top: 410px;
+}
+
+
+>>>>>>> origin/master
 #PurchasingParagraph1
 {
     color:red;
