@@ -18,12 +18,12 @@
         <form id="form1" runat="server">
             <asp:Image ID="Logo" runat="server" src="/Images/Birdemic logo.png" Height="113px" Width="180px"/>
             <div id="buttonrow">
-                <asp:Button ID="Button1" runat="server" Text="Home" CssClass="buttonstyle" />
-                <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="buttonstyle" />
-                <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="buttonstyle" />
-                <asp:Button ID="Button4" runat="server" Text="About Us" CssClass="buttonstyle" />
-                <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="buttonstyle" />
-                <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="buttonstyle" />
+                <asp:Button ID="Button1" runat="server" Text="Home" CssClass="ButtonStyle" />
+                <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="ButtonStyle" />
+                <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="ButtonStyle" />
+                <asp:Button ID="Button4" runat="server" Text="About Us" CssClass="ButtonStyle" />
+                <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="ButtonStyle" />
+                <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="ButtonStyle" />
             </div>
         </form>
     </asp:ContentPlaceHolder>

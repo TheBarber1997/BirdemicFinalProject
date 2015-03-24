@@ -4,21 +4,21 @@
     background-repeat:no-repeat;
     background-size:cover;
 }
-
+/*CSS for the MasterPage*/
 #buttonrow
 {
     position:relative;
     background-size:25%;
-    top:2%;
-    left:1%;
-    height: 76px;
+    top:-14%;
+    left:2%;
+    height: 66px;
+    width: 852px;
+    margin-left: 156px;
 }
-
-#PurchasePage 
+.ButtonStyle
 {
-    background-color: Red;
+    margin:20px;
 }
-
 
 /*CSS for the handdrawn concept art :: Isabel did this*/
 #Concept
