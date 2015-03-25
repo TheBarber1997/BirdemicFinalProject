@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/MasterPage.master" AutoEventWireup="true" CodeFile="HomePage.aspx.cs" Inherits="Webpages_HomePage" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server"><link rel="stylesheet" type="text/css" href="/CSS/MasterStyles.css" />
 </asp:Content>
 
 
@@ -16,10 +16,19 @@
         <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="ButtonStyle" PostBackUrl="~/Webpages/ContactUs.aspx" />
         <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="ButtonStyle" PostBackUrl="~/Webpages/OtherMedia.aspx" />
     </div>
-    <div id="Homepage" style="height: 583px; width: 822px; margin-left: 193px">
-        <asp:Image ID="Image1" runat="server" Height="240px" style="margin-left: 194px" Width="405px" ImageUrl="~/Webpages/HomePage.aspx" />
+    <div id="Homepage" style="height: 629px; width: 1359px; margin-left: 193px; top: -46px; left: -190px;">
+        <asp:Image ID="Image1" runat="server" Height="490px" style="margin-left: 194px" Width="405px" ImageUrl="~/Webpages/HomePage.aspx" />
         <br />
-        <span class="auto-style1">Hello and Welcome to our official Birdemic webiste! We are so excited to be working on the production of this game. To show some of our enthusiasm we worked on the promotional Website. Here we will give you some teasers as to our development on certain surprises as well as patches and important news on the game. We want your feedback on what your thinking on this game, give us suggestions or ideas that you want in the game who knows your idea could be selected.</span></div>
+        <span class="auto-style1">Hello and Welcome to our official Birdemic website! We are so excited to be working on the production of this game. To show some 
+        <br />
+        of our enthusiasm we worked on the promotional Website. Here we will give you some teasers as to our development on certain 
+        <br />
+        surprises as well as patches and important news on the game. We want your feedback on what your thinking on this game, give us 
+        <br />
+        suggestions or ideas that you want in the game who knows your idea could be selected.
+        <br />
+        </span>
+    </div>
 </form>
 </asp:Content>
 
