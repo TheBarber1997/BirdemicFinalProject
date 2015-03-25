@@ -1,6 +1,6 @@
 ﻿body 
 {
-    background-image: url('/Images/Bakcground V2.PNG');
+    background-image: url('/Images/Site Background mini.PNG');
     background-repeat:no-repeat;
     background-size:cover;
 }
@@ -10,21 +10,14 @@
     position:relative;
     background-size:25%;
     top:-14%;
-    left:5%;
+    left:2%;
     height: 66px;
-    width: 978px;
+    width: 852px;
     margin-left: 156px;
 }
 .ButtonStyle
 {
     margin:20px;
-}
-
-<<<<<<< HEAD
-=======
-#Homepage
-{
-    Position:relative;
 }
 
 /*CSS for the handdrawn concept art :: Isabel did this*/
@@ -52,25 +45,72 @@
 }
 
 
->>>>>>> origin/master
 #PurchasingParagraph1
 {
     color:red;
     
 }
 
-#Images
+/*CSS for hyper link to Birdemic official site :: Isabel did this*/
+#HyperLink1
 {
-    float:left;
+    text-align:center;
+    position: fixed;
+    left:250px;
+    top:150px;
+    color:#ffffff;
+    font-family:Tunga;
 }
 
-#Concept
+/* CSS for text for indicate art :: Isabel did this*/
+#ConceptText
 {
-    /*float:left;*/
+    text-align:center;
+    position:fixed;
+    left: 560px;
+    top:380px;
+    color:#ffffff;
+    font-family:Tunga;
 }
 
-#BirdConcept
+/*CSS for text for to indicate links :: Isabel did this*/
+#LinksText
 {
-    float:right;
-    
+    text-align:center;
+    position:fixed;
+    left: 540px;
+    top:100px;
+    font-family:Tunga;
+    color:#ffffff;
+}
+
+/*CSS for hyper link to IMDB*/
+#HyperLink2
+{
+    text-align:center;
+    position: fixed;
+    left:500px;
+    top:150px;
+    font-family:Tunga;
+    color:#ffffff;
+}
+/*CSS for hyper link to the trailer*/
+#HyperLink3
+{
+    text-align:center;
+    position: fixed;
+    left:620px;
+    top:150px;
+    font-family:Tunga;
+    color:#ffffff;
+}
+/*CSS for hyperlink to twitter*/
+#HyperLink4
+{
+    text-align:center;
+    position: fixed;
+    left:860px;
+    top:150px;
+    font-family:Tunga;
+    color:#ffffff;
 }
