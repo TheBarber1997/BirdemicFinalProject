@@ -9,7 +9,7 @@
         &nbsp;<div id="buttonrow">
             <asp:Button ID="Button1" runat="server" Text="Home" CssClass="ButtonStyle" />
             <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="ButtonStyle" />
-            <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="ButtonStyle" />
+            <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="ButtonStyle" PostBackUrl="~/Webpages/PurchasePage.aspx" />
             <asp:Button ID="Button4" runat="server" Text="About Us" CssClass="ButtonStyle" />
             <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="ButtonStyle" />
             <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="ButtonStyle" />
@@ -18,9 +18,8 @@
         <p id="LinksText">Links to us on other sites</p>
         <p id ="ConceptText">Concept Images</p>
         
-        <div id="Images"><img id="Desktop" src="../Images/DesktopBanner.png" />
-        <img id="Concept" src="../Images/Concept%20art%20resize2.png" /> 
-        <img id="BirdConcept" src="../Images/Birdconcepts.png" /></div>
+        <div id="Images">&nbsp;<img id="Concept" src="../Images/Concept%20art%20resize2.png" /> 
+        <img id="BirdConcept" src="../Images/Birdconcepts.png" /><img id="Desktop" src="../Images/DesktopBanner.png" /></div>
      </form>
 </asp:Content>
 
