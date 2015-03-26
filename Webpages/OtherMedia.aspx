@@ -17,10 +17,16 @@
 
         <p id="LinksText">Links to us on other sites</p>
         <p id ="ConceptText">Concept Images</p>
+        <p>
+            <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/DesktopBanner.png" />
+        </p>
+        <p>
+            &nbsp;</p>
         
-        <div id="Images"><img id="Desktop" src="../Images/DesktopBanner.png" />
-        <img id="Concept" src="../Images/Concept%20art%20resize2.png" /> 
-        <img id="BirdConcept" src="../Images/Birdconcepts.png" /></div>
+        <div id="Images">&nbsp;
+            <asp:Image ID="Image1" runat="server" CssClass="birdconcept" ImageUrl="~/Images/Birdconcepts.png" />
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/Concept art resize2.png" />
+        </div>
      </form>
 </asp:Content>
 

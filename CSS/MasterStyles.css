@@ -48,7 +48,7 @@
 {
     position:fixed;
     left:207px;
-    top: 410px;
+    top: 68px;
 }
 
 
@@ -61,16 +61,23 @@
 
 #Images
 {
-    float:left;
+   float:initial;
 }
 
 #Concept
 {
-    /*float:left;*/
+    
 }
 
 #BirdConcept
 {
-    float:right;
+    right:50%;
     
+}
+
+.birdconcept{
+    position:relative;
+    left:50%;
+
+
 }
