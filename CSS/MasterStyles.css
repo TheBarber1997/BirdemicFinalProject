@@ -20,29 +20,9 @@
     margin:20px;
 }
 
-<<<<<<< HEAD
-=======
 #Homepage
 {
     Position:relative;
-}
-
-/*CSS for the handdrawn concept art :: Isabel did this*/
-#Concept
-{
-    position:fixed;
-    left: 250px;
-    top: 520px;
-}
-
-/*CSS for sketchy looking bird drawing :: Isabel did this*/
-#BirdConcept
-{
-    position:fixed;
-    left:10%;
-    top: 308px;
-    height: 203px;
-    width: 223px;
 }
 
 /*CSS for desktop banner :: Isabel did this*/
@@ -50,11 +30,9 @@
 {
     position:fixed;
     left:207px;
-    top: 68px;
+    top: 700px;
 }
 
-
->>>>>>> origin/master
 #PurchasingParagraph1
 {
     color:red;
@@ -63,23 +41,47 @@
 
 #Images
 {
-   float:initial;
+   /*float:initial;*/
+position:absolute;
+bottom:10px;
+left:200px;
 }
 
-#Concept
+#asdf
 {
-    
+    position:absolute;
+    left:200px;
+    bottom:100px;
 }
 
-#BirdConcept
+.hyperlink
 {
-    right:50%;
-    
+    color:#ffffff;
+    position:absolute;
+    left:300px;
+    top: 250px;
 }
 
-.birdconcept{
-    position:relative;
-    left:50%;
+.hyperlink2
+{
+    color:#ffffff;
+    position:absolute;
+    left:500px;
+    top: 250px;
+}
 
+.hyperlink3
+{
+    color:#ffffff;
+    position:absolute;
+    left:700px;
+    top: 250px;
+}
 
+.hyperlink4
+{
+    color:#ffffff;
+    position:absolute;
+    left:900px;
+    top: 250px;
 }
