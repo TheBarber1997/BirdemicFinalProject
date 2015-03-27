@@ -11,4 +11,12 @@ public partial class Webpages_PurchasePage : System.Web.UI.Page
     {
 
     }
+    protected void FName_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+    protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
 }

@@ -2,10 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style type="text/css">
-        .auto-style2 {
-            width: 281px;
-            height: 351px;
-        }
         #asdf {
             height: 372px;
             width: 307px;
@@ -16,7 +12,9 @@
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
     <form id="form1" runat="server">
         <asp:Image ID="Logo" runat="server" src="/Images/Birdemic logo.png" Height="113px" Width="180px"/>
+
         &nbsp;<asp:HyperLink ID="HyperLink1" runat="server" CssClass="hyperlink" NavigateUrl="http://www.birdemic.com/">Birdemic Site</asp:HyperLink>
+        <asp:HyperLink ID="linkTrailer" runat="server" CssClass="hyperlink2" NavigateUrl="https://www.youtube.com/watch?v=jE5dJDgZ644">Official Trailer</asp:HyperLink>
         <div id="buttonrow">
             <asp:Button ID="Button1" runat="server" Text="Home" CssClass="ButtonStyle" PostBackUrl="~/Webpages/HomePage.aspx" />
             <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="ButtonStyle" PostBackUrl="~/Webpages/GameInfo.aspx" />
@@ -36,11 +34,17 @@
         
         <div id="Images">&nbsp;
             
-            <asp:Image ID="Image1" runat="server" CssClass="birds" ImageUrl="~/Images/Birdconcepts.png" />
-            <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/Concept art resize2.png" />
-            <img id="" src="../Images/game%20cover%20resize.png" style="height: 307px; width: 247px" />
             </div>
+            <asp:HyperLink ID="linkIMDB" runat="server" CssClass="hyperlink3" NavigateUrl="http://www.imdb.com/title/tt1316037/">IMDB</asp:HyperLink>
+        <asp:HyperLink ID="linkRotten" runat="server" CssClass="hyperlink4" NavigateUrl="http://www.rottentomatoes.com/m/birdemic_shock_and_terror-2008/">Rotten Tomatoes</asp:HyperLink>
             </form>
+
+        &nbsp;<p id="LinksText">Links to us on other sites</p>
+        <p id ="ConceptText">Concept Images</p>
+        
+        <div id="Images"><img id="Concept" src="../Images/Concept%20art%20resize2.png" /><img id="BirdConcept" src="../Images/Birdconcepts.png" /> <img id="" src="../Images/game%20cover%20resize.png" style="height: 307px; width: 247px" /></div>
+     </form>
+
 </asp:Content>
 
             

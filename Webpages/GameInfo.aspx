@@ -37,12 +37,12 @@
     <form id="form1" runat="server">
         <asp:Image ID="Logo" runat="server" src="/Images/Birdemic logo.png" Height="113px" Width="180px"/>
         <div id="buttonrow">
-            <asp:Button ID="Button1" runat="server" Text="Home" CssClass="ButtonStyle" />
-            <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="ButtonStyle" />
-            <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="ButtonStyle" />
-            <asp:Button ID="Button4" runat="server" Text="About Us" CssClass="ButtonStyle" />
-            <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="ButtonStyle" />
-            <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="ButtonStyle" />
+            <asp:Button ID="Button1" runat="server" Text="Home" CssClass="ButtonStyle" PostBackUrl="~/Webpages/HomePage.aspx" />
+            <asp:Button ID="Button2" runat="server" Text="The Game" CssClass="ButtonStyle" PostBackUrl="~/Webpages/GameInfo.aspx" />
+            <asp:Button ID="Button3" runat="server" Text="Purchase" CssClass="ButtonStyle" PostBackUrl="~/Webpages/PurchasePage.aspx" />
+            <asp:Button ID="Button4" runat="server" Text="About Us" CssClass="ButtonStyle" PostBackUrl="~/Webpages/AboutUs.aspx" />
+            <asp:Button ID="Button5" runat="server" Text="Contact Us" CssClass="ButtonStyle" PostBackUrl="~/Webpages/ContactUs.aspx" />
+            <asp:Button ID="Button6" runat="server" Text="Other Media" CssClass="ButtonStyle" PostBackUrl="~/Webpages/OtherMedia.aspx" />
         </div>
         <span class="auto-style1">&nbsp;<strong><span class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game Info
             <br />
